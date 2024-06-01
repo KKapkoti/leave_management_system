@@ -1,0 +1,747 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  overflow: hidden;
+  position: fixed;
+}
+
+
+.login {
+  padding-top: 35vh;
+}
+
+.login-page-heading{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 70px;
+  color: black;
+}
+
+.login-heading{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  margin-top: 30px;
+  color: black;
+}
+
+
+
+main {
+  width: 160vh;
+  padding: 20px;
+}
+
+
+.sublink{
+  padding-right: 5px;
+}
+
+
+.sidebar {
+  background: #000000;
+  /* color: #000000; */
+  height: 100vh;
+  width: 320px;
+  transition: all 0.5s;
+  margin-top: 10vh;
+  /* position: fixed; */
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.logo {
+  font-size: 30px;
+  color: black;
+}
+
+.sublink,
+.link {
+  display: flex;
+  color: #ffffff;
+  padding: 15px 15px;
+  gap: 15px;
+  /* transition: all 0.5s; */
+  position: relative;
+}
+
+tr{
+  width: 92%;
+}
+
+
+
+.dropdown-link:hover,
+.sublink,
+.link:hover {
+  /* background: rgb(255, 255, 255); */
+  /* color: #fd0000; */
+}
+
+
+
+.icon,
+.link_text {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 30px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.sublink .link:hover .dropdown-container {
+  display: block;
+}
+
+
+.box{
+  height: 20vh;
+  width: 35vh;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 2px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.box-text{
+  height: 100%;
+  width: 22vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+.second-box{
+  background-color: rgb(225, 225, 225);
+  height: 73vh;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* box-shadow: inset 3px 3px 20px 0px; */
+  overflow:scroll;
+  margin-top: 80px;
+}
+
+.third-box{
+  height: 100%;
+  width: 45%;
+  background-color: #fff;
+  /* border: 2px solid black; */
+  padding: 10px 10px 0px 10px;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+.admin-third-box{
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.boxes{
+  display: flex;
+  height: 40%;
+  width: 100%;
+  align-items: center;
+  /* background-color: white; */
+  justify-content: space-evenly;
+}
+
+.box-icon{
+  width: 12vh;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  background-color: #1f1f1f;
+  color: white;
+  border-radius: 0px 20px 20px 0px;
+}
+
+
+
+
+.fourth-box{
+  height: 100%;
+    width: 100%;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* overflow:scroll; */
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+.bottom-nav{
+  display: flex;
+    height: 10%;
+    background-color: rgb(225, 225, 225);
+    align-items: center;
+    padding-left: 5%;
+    position: fixed;
+    /* left: 0; */
+    bottom: 0;
+    width: 100%;
+}
+
+.add-dep{
+  margin: 20px 0;
+  font-size: 20px;
+  background-color: rgb(235 72 20);
+  color: white;
+  padding: 7px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px rgb(117, 113, 113);
+  border: none;
+  cursor: pointer;
+}
+
+.vdmain-box{
+  background-color: rgb(225, 225, 225);
+  height: 78vh;
+  /* box-shadow: inset 3px 3px 20px 0px; */
+  overflow:scroll;
+  margin-top: 80px;
+}
+
+table{
+  width: 90%;
+}
+
+
+.table-das{
+  margin: 0 1rem;
+}
+
+.dep-table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.dep-table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+th, td {
+  padding: 15px;
+}
+
+#top-table{
+  background-color: #c1bcbc;
+}
+
+.subdep-class{
+  height: 85%;
+    width: 95%;
+    margin: 0vh 2vh;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 15px;
+}
+
+.create-subdep{
+  height: 80%;
+    width: 90%;
+    margin: 1vh 3%;
+    background-color: white;
+    padding: 1%;
+}
+.department-form{
+  display: flex;
+  font-size: 25px;
+  padding: 1px 2%;
+}
+
+#dateOfBirth{
+  display: flex;
+}
+
+
+
+
+
+.submit-btn{
+  background-color: black;
+    color: white;
+    height: 50px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    margin: 1% 4%;
+}
+
+.checkbox{
+  display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+
+.create-dep-form{
+  width: 90%;
+    display: flex;
+    /* margin: 15px 0; */
+    font-size: 25px;
+    flex-direction: column;
+    padding: 2% 4%;
+}
+
+#depemail,
+#deppass,
+#depphone,
+#depshortname,
+#depdetails,
+#depname{
+  height: 27px;
+    width: 90%;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(209, 209, 209);
+    padding: 5px;
+    font-size: 17px;
+    color: rgb(73, 73, 73);
+    text-align: unset;
+}
+
+.stdnt-form,
+.dept-form{
+  width: 50%;
+}
+
+.create-student-form{
+  width: 100%;
+    display: flex;
+    /* margin: 15px 0; */
+    font-size: 25px;
+    flex-direction: row;
+    padding: 1px 2%;
+
+}
+
+.first-half,
+.second-half{
+  width: 50%;
+}
+
+#address{
+  height: 100px;
+    width: 80%;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(209, 209, 209);
+    padding: 5px;
+    font-size: 17px;
+    color: rgb(73, 73, 73);
+    text-align: unset;
+    resize: none;
+}
+#leave-details{
+  height: 100px;
+  width: 99%;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgb(209, 209, 209);
+  padding: 5px;
+  font-size: 17px;
+  color: rgb(73, 73, 73);
+  text-align: unset;
+  resize: none;
+}
+
+
+.chart{
+  height: 75%;
+  width: 80%;
+}
+
+.chart_box{
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.res_approve{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.res_reject{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+
+.main_chart_box{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.head{
+  padding: 20px 20px;
+}
+
+.select_dep{
+  height: 35px;
+  width: 90%;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgb(209, 209, 209);
+  padding: 5px;
+  font-size: 17px;
+  color: rgb(73, 73, 73);
+  text-align: unset;
+}
+
+
+
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]{
+  -moz-appearance: textfield;
+}
+
+
+/* login page css */
+
+
+.main-box{
+  background: transparent;
+  width: 380px;
+  margin: 0 0 0 30%;
+  height: 500px;
+  /* border-radius: 25px; */
+  /* box-shadow: 0 0 10px black; */
+}
+
+.body{
+  background: rgb(227,227,227);
+  /* background: radial-gradient(rgb(80, 74, 74)); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  height: 89vh;
+  width: 100%;
+  min-height: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./component/icons/Building.png);
+}
+
+.tabs{
+  display: flex;
+  position: relative;
+  top: 50px;
+  justify-content: center;
+  color: rgb(73, 71, 71);
+  height: 25px;
+}
+
+.hod-tab,
+.student-tab {
+  width: 50%;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: auto 25px;
+  cursor: pointer;
+}
+
+.hod-tab:hover
+.student-tab:hover {
+  color: rgb(10, 51, 98);
+  /* border-bottom: 4px solid rgb(10, 51, 98); */
+}
+
+
+.active {
+  background: rgb(255, 255, 255);
+  color: rgba(0, 81, 255, 0.78);
+  /* border-bottom: 4px solid rgb(14 73 200 / 78%); */
+}
+
+#student-form {
+  display: block;
+  padding-top: 25px;
+}
+
+.form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 70px auto;
+}
+
+.forms{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  height: 27px;
+  width: 80%;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgb(209, 209, 209);
+  padding: 5px;
+  font-size: 17px;
+  color: rgb(73, 73, 73);
+  text-align: center;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  font-style: italic;
+}
+
+.l-details{
+  padding: 1px 2%;
+  font-size: 25px;
+}
+
+
+
+
+
+.remember {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  text-align: center;
+}
+
+.button {
+  margin: 40px auto;
+  font-size: 20px;
+  background-color: rgb(10, 51, 98);
+  color: white;
+  padding: 10px 100px;
+  border-radius: 18px;
+  box-shadow: 0 0 2px rgb(117, 113, 113);
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(0, 81, 255, 0.781);
+}
+
+#hod-form{
+  display: none;
+  padding-top: 25px;
+}
+
+.tnc{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  color: rgb(54, 52, 52);
+  font-style: italic;
+}
+
+.approved{
+  background-color: green;
+  color: white;
+}
+
+.rejected{
+  background-color: red;
+  color: white;
+}
+
+.pending{
+  background-color: rgb(238, 238, 56);
+}
+
+.status{
+
+}
+
+.login-nav{
+  display: flex;
+  align-items: center;
+  background-color: white;  
+  width: 100%;
+  height: 10vh;
+  margin: 0vh 0vh 1vh 0vh;
+  box-shadow: 3px -1px 20px 0px
+}
+
+.logotext{
+  font-size: 25px;
+  color: black;
+}
+
+.navtext{
+  font-size: 25px;
+  color: white;
+}
+
+.img{
+  height: 100%;
+  width: 25vh;
+  background: transparent;
+  margin: 0 10px;
+}
+
+.login-input{
+  height: 27px;
+  margin: 5px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: white;
+  padding: 5px;
+  font-size: 17px;
+  color: rgb(73, 73, 73);
+  text-align: center;
+}
+
+.headnav{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+
+.lms{
+  width: 30vh;
+  /* height: 100%; */
+  /* background-color: #c1bcbc; */
+  /* background-image: url(./component/icons/logo.png); */
+}
+
+/* dashboard css */
+
+.nav{
+  display: flex;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  /* margin: 0vh 0vh 1vh 0vh; */
+  /* box-shadow: 3px -1px 20px 0px */
+  padding: 1vh 0vh 1vh 0vh;
+}
+
+.profile{
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+}
+
+.nav-area{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.p-menu{
+  color: white;
+}
+
+
+
+@media screen and (max-width:600px) {
+  .container {
+      width: 90%;
+  }
+}
+
+@media screen and (max-width:350px) {
+  .container {
+      width: 320px;
+  }
+}
+
+.active {
+  background: rgb(79, 79, 79);
+  color: rgb(255, 255, 255);
+  /* border-bottom: 4px solid rgb(14 73 200 / 78%); */
+}
+
+/* Additional styles for specific elements inside the active class */
+.active .icon,
+.active .link_text {
+  color: rgb(255, 255, 255); /* Change icon and link text color */
+}
+
+.active .link {
+  background-color: rgb(255, 255, 255); /* Change background color of links */
+}
+
+.active .dropdown-container {
+  background-color: #262626; /* Change background color of dropdown container */
+}
+
+.active .sublink-item {
+  color: rgba(0, 81, 255, 0.78); /* Change submenu link text color */
+}
+
+.active .submenu-item {
+  background-color: rgb(255, 255, 255); /* Change background color of submenu items */
+}

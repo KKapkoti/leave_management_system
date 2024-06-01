@@ -1,0 +1,33 @@
+**Express.js** is a popular web application framework for Node.js.
+It provides a robust set of features to develop web and mobile applications quickly and easily.
+
+
+
+**Routing**: In a Node.js application, routing is typically handled by a router (like Express.js router). 
+The router directs incoming requests to the appropriate controller based on the URL and HTTP method.
+Express.js simplifies the process of defining routes for handling different HTTP requests (GET, POST, PUT, DELETE, etc.).
+Routes are defined using methods like app.get(), app.post(), app.put(), etc.
+
+
+
+**Controller Logic**: Each route typically maps to a controller function. 
+The controller function is responsible for processing the request, interacting with the model layer (if necessary), 
+and preparing the response.
+
+
+
+**Interaction with Models**: Controllers often interact with the model layer to retrieve or manipulate data. 
+Models represent the data structure and business logic of the application.
+Controllers utilize these models to perform CRUD (Create, Read, Update, Delete) operations.
+
+
+
+
+json web token(jwt)- are often used for Authentication and Authorization in web applications.
+**Authentication** verifying the identity of the user or client.
+**Authorization** determing what actions a user or client is allowed to perform.
+
+
+
+
+
