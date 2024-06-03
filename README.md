@@ -1,7 +1,3 @@
-Certainly! Below is a sample README file for your Student Leave Management System using the MERN (MongoDB, Express, React, Node.js) stack. This guide includes setup instructions, API endpoints, and Postman testing steps.
-
----
-
 # Student Leave Management System
 
 This project is a Student Leave Management System built using the MERN stack. It allows students to request leaves and administrators to manage these requests.
